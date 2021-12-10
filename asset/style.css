@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: calibri;
+}
+
+input[type=email],input[type=password],input[type=text],select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  resize: vertical;
+  margin:3% 0;
+}
+  .page {
+    margin: auto;
+    margin-top:5%;
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+  }
+
+  .container{
+    margin:auto;
+    width: 80%;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #d71149;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    width: 100%;
+    cursor: pointer;
+    float: right;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color:#da5e81;
+  }
+  label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .col{
+    float:left;
+  }
+
+/*-----------------MENU-----------------------*/
+  ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#d71149;
+  }
+  li{
+    float:left;
+  }
+  li a{
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    display:block;
+  }
+
+  li a:hover{
+    background-color:#c30f42;
+  }
+/*-----------------MENU-----------------------*/
+
+/*-----------------Table----------------------*/
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #d71149;
+  color: white;
+}
+table a{
+  color:black;
+  text-decoration:none;
+}
+table a:hover{
+  color: #d71149;
+}
+/*-----------------Layout---------------------*/
+.kiri,.kanan{
+  margin:1%;
+  float: left;
+  padding: 1%;
+  background-color: white;
+
+}
+.kiri{
+  width:36%;
+}
+.kanan{
+  width:60%;
+}
+h3{
+  padding-bottom: 2%;
+}
+hr{
+  border:0.5px solid #ccc;
+}
+
+.title{
+  width: 100%;
+  padding: 1%;
+  background: white
+}
